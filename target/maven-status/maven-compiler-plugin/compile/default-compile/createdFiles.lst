@@ -1,5 +1,6 @@
-inhiit/WorkoutRepository.class
 inhiit/UserRepository.class
+inhiit/Application.class
+inhiit/WebMvcConfig.class
+inhiit/WorkoutRepository.class
 inhiit/Workout.class
 inhiit/User.class
-inhiit/Application.class
