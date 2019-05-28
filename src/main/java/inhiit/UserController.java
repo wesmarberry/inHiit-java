@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
+import java.io.IOException;
 
 @RestController
 public class UserController {
@@ -44,6 +45,29 @@ public class UserController {
             session.setAttribute("msg", "login successful");
         }
         return newUser;
+    }
+
+    // logs out users
+    @GetMapping("/users/logout")
+    public String logOut(HttpSession session) {
+        session.invalidate();
+        return "successfully logged out";
+    }
+
+    @PostMapping("/users/login")
+    public User login(@RequestBody User login, HttpSession session) throws IOException {
+        bCryptPasswordEncoder = new BCryptPasswordEncoder();
+        User user = userRepository.findByUsername(login.getUsername());
+        if(user ==  null){
+            throw new IOException("Invalid Credentials");
+        }
+        boolean valid = bCryptPasswordEncoder.matches(login.getPassword(), user.getPassword());
+        if(valid){
+            session.setAttribute("username", user.getUsername());
+            return user;
+        }else{
+            throw new IOException("Invalid Credentials");
+        }
     }
 
 }
