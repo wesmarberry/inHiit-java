@@ -9,31 +9,35 @@ public class User {
     private Long id;
 
 
-    private String userName;
+    private String username;
 
-    private String passWord;
+    private String password;
 
     public void setId(Long id) {
         this.id = id;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
 
-    public void setPassWord(String passWord) {
-        this.passWord = passWord;
-    }
+
+
 
     public Long getId() {
         return id;
     }
 
-    public String getUserName() {
-        return userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getPassWord() {
-        return passWord;
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
     }
 }

@@ -1,6 +1,11 @@
+inhiit/Workout.class
+inhiit/UserController.class
+inhiit/UserService.class
 inhiit/UserRepository.class
 inhiit/Application.class
 inhiit/WebMvcConfig.class
 inhiit/WorkoutRepository.class
-inhiit/Workout.class
+inhiit/WorkoutController.class
+inhiit/CorsConfig.class
+inhiit/SecurityConfiguration.class
 inhiit/User.class
