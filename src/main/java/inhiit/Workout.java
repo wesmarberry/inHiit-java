@@ -14,18 +14,36 @@ public class Workout {
     @JoinColumn(name="user_id")
     private User user;
 
-    private int intervalOne;
+    private int intervalone;
 
-    private int intervalTwo;
+    private int intervaltwo;
 
     private int cycles;
+
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public void setId(Long id) {
         this.id = id;
     }
 
-    public void setIntervalTwo(int intervalTwo) {
-        this.intervalTwo = intervalTwo;
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public void setIntervalone(int intervalone) {
+        this.intervalone = intervalone;
+    }
+
+    public void setIntervaltwo(int intervaltwo) {
+        this.intervaltwo = intervaltwo;
     }
 
     public void setCycles(int cycles) {
@@ -36,29 +54,19 @@ public class Workout {
         return id;
     }
 
-    public int getIntervalTwo() {
-        return intervalTwo;
+    public User getUser() {
+        return user;
+    }
+
+    public int getIntervalone() {
+        return intervalone;
+    }
+
+    public int getIntervaltwo() {
+        return intervaltwo;
     }
 
     public int getCycles() {
         return cycles;
     }
-
-    public void setIntervalOne(int intervalOne) {
-        this.intervalOne = intervalOne;
-    }
-
-    public int getIntervalOne() {
-        return intervalOne;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-
 }

@@ -2,13 +2,12 @@ package inhiit;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Optional;
 
 @RestController
 public class UserController {
@@ -69,5 +68,44 @@ public class UserController {
             throw new IOException("Invalid Credentials");
         }
     }
+
+    // deletes users
+    @DeleteMapping("/users/{id}")
+    public String delete(@PathVariable("id") Long id) {
+        userRepository.deleteById(id);
+        return "deleted " + id;
+    }
+
+    // edit users
+    @PutMapping("/users/{id}/edit")
+    public User editUser(@PathVariable("id") Long id, @RequestBody User formData) throws Exception {
+        Optional<User> response = userRepository.findById(id);
+        if (response.isPresent()) {
+
+            User user = response.get();
+            user.setUsername(formData.getUsername());
+            user.setZipcode(formData.getZipcode());
+            return userRepository.save(user);
+        }
+        throw new Exception("no user to update");
+
+    }
+
+    // shows single user with all workouts populated
+    @GetMapping("/users/{id}")
+    public HashMap<String, Object> findUser(@PathVariable("id") Long id)throws Exception{
+        Optional<User> response = userRepository.findById(id);
+        if(response.isPresent()){
+            User user = response.get();
+            Iterable<Workout> workouts = workoutRepository.findByUser(user);
+            HashMap<String, Object> result = new HashMap<>();
+            result.put("user", user);
+            result.put("workouts", workouts);
+            return result;
+        }
+        throw new Exception("no such user");
+    }
+
+
 
 }

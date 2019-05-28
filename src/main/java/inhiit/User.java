@@ -13,6 +13,16 @@ public class User {
 
     private String password;
 
+    private int zipcode;
+
+    public void setZipcode(int zipcode) {
+        this.zipcode = zipcode;
+    }
+
+    public int getZipcode() {
+        return zipcode;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
