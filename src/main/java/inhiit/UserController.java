@@ -38,7 +38,7 @@ public class UserController {
     public User createUser(@RequestBody User user, HttpSession session){
         User newUser = userService.saveUser(user);
         if(newUser != null){
-            session.setAttribute("userName", newUser.getUsername());
+            session.setAttribute("username", newUser.getUsername());
             session.setAttribute("userDbId", newUser.getId());
             session.setAttribute("logged", true);
             session.setAttribute("msg", "login successful");
