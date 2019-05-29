@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a5be0eb-2c1d-440d-b31b-e89a5b7bf369" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inhiit/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhiit/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inhiit/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhiit/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inhiit/Workout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhiit/Workout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inhiit/WorkoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhiit/WorkoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inhiit/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inhiit/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inhiit/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inhiit/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inhiit/Workout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inhiit/Workout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inhiit/WorkoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inhiit/WorkoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inhiit/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inhiit/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inhiit/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inhiit/CorsConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/inHiit-java-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/inHiit-java-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/inHiit-java-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/inHiit-java-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
@@ -90,6 +85,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/inhiit/CorsConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/inhiit/WorkoutRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -98,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/inhiit/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="265">
+              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#773#774#0" expanded="true" />
@@ -133,31 +149,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/inhiit/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/inhiit/WorkoutController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="525">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#696#697#0" expanded="true" />
@@ -203,13 +198,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/inhiit/WebMvcConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/inhiit/SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/inhiit/CorsConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/inhiit/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/inhiit/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/inhiit/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/inhiit/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/inhiit/Workout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inhiit/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/inhiit/WorkoutController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inhiit/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -241,45 +237,6 @@
             <path>
               <item name="inHiitJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="InHiit-Refactor-java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inHiitJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InHiit-Refactor-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inHiitJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InHiit-Refactor-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inHiitJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InHiit-Refactor-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inHiitJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InHiit-Refactor-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="inhiit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inHiitJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InHiit-Refactor-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inHiitJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InHiit-Refactor-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,16 +316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inhiit/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -492,10 +439,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inhiit/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/inhiit/WorkoutController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#696#697#0" expanded="true" />
@@ -504,17 +465,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inhiit/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/inhiit/CorsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="255">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
         </state>
       </provider>
     </entry>
