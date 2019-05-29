@@ -60,6 +60,11 @@ public class WorkoutController {
                 workout.setCycles(formData.getCycles());
             }
 
+            if (formData.getReps() != 0) {
+                workout.setReps(formData.getReps());
+            }
+
+
             return workoutRepository.save(workout);
 
         }

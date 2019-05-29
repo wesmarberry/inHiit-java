@@ -14,6 +14,16 @@ public class Workout {
     @JoinColumn(name="user_id")
     private User user;
 
+    private int reps;
+
+    public void setReps(int reps) {
+        this.reps = reps;
+    }
+
+    public int getReps() {
+        return reps;
+    }
+
     private int intervalone;
 
     private int intervaltwo;
