@@ -14,7 +14,8 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
 
         registry.addMapping("/**")
-                .allowedOrigins("https://inhiit-refactor-java.herokuapp.com", "https://localhost:3001")
+                .allowedOrigins("https://inhiit-refactor-java.herokuapp.com")
+                .allowedOrigins("https://localhost:3001")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "HEAD", "OPTIONS")
                 .allowCredentials(true)
                 .allowedHeaders("*");
