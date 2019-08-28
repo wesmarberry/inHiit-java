@@ -1,3 +1,4 @@
-# Digi-Card
+# InHiit (Java Refactor)
 
-Digi-Card is a service meant to make sharing your business cards easy!  Users will be able to personalize their digital business cards and share them with other users nearby.
+This repository is a refactor of a NodeJS, Express, and MongoDB repository using Java, Spring Boot, and MySQL.  Th link to the ReacJS front end repository is https://github.com/wesmarberry/inHIIT.
+
